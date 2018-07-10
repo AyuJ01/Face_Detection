@@ -14,7 +14,7 @@ from PIL import Image
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 
 
-path = 'E:\Forsk\MyProjects\Face_Detection\dataSet'
+path = 'E:\Forsk\MyProjects\projects\Face_Detection sqlite\dataSet'
 
 def getImagesWithID(path):
     imagePaths = [os.path.join(path,f) for f in os.listdir(path)]

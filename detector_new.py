@@ -32,9 +32,11 @@ while True:
         if(Id==1):    
                 cv2.putText(img, "Ayushi",(x, y+h),cv2.FONT_HERSHEY_COMPLEX_SMALL,1,(0,0,255))
         elif (Id == 2):
-                cv2.putText(img, "Prashita",(x, y+h),cv2.FONT_HERSHEY_COMPLEX_SMALL,1,(0,0,255))
+                cv2.putText(img, "Prakshi",(x, y+h),cv2.FONT_HERSHEY_COMPLEX_SMALL,1,(0,0,255))
         elif (Id == 3):
-                cv2.putText(img, "Priyam",(x, y+h),cv2.FONT_HERSHEY_COMPLEX_SMALL,1,(0,0,255))    
+                cv2.putText(img, "Ankita",(x, y+h),cv2.FONT_HERSHEY_COMPLEX_SMALL,1,(0,0,255))    
+        elif (Id == 4):
+                cv2.putText(img, "Kunal",(x, y+h),cv2.FONT_HERSHEY_COMPLEX_SMALL,1,(0,0,255))    
                 
         """     
         if(conf<50):
